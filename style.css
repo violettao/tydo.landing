@@ -65,36 +65,23 @@ form {
     justify-content: start;
 }
 
-
-form .btn-theme {
-    width: 42px;
-    height: 42px;
-    color: #fff;
-    background-color: #FFA336;
-    border-radius: 30px;
-    transition: background 0.3s;
+.btn-theme{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: none;
+    background: transparent;
 }
 
-.btn-theme:after {
-    content: ' ';
-    position: absolute;
-    width: 39px;
-    height: 44px;
-    border: 2px solid #A284A8;
-    box-sizing: border-box;
-    border-radius: 30px;
-    top: 5px;
-    left: 6px;
+.btn-theme p{
+    padding-top: 15px;
+    padding-left: 10px;
 }
+
 
 .form-button {
     position: relative;
     display: flex;
-}
-
-.btn-theme:hover {
-    color: #fff;
-    background-color: #F0724F;
 }
 
 form .form-control {
@@ -180,21 +167,9 @@ form p {
 .level-01 p b{
     line-height: 60px;
 }
-
 .images-circle{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 500px;
 }
-
-.courses{
-    margin-right: 120px;
-}
-
-.students{
-    margin-right: 120px;
-}
-
 /* level-02 */
 
 .level-02{
@@ -295,19 +270,7 @@ form p {
     height: 950px;
 }
 
-.level-03-text .btn-theme {
-    width: 42px;
-    height: 42px;
-    color: #fff;
-    background-color: #FFA336;
-    border-radius: 30px;
-    transition: background 0.3s;
-}
 
-.level-03-text .btn-theme:hover {
-    color: #fff;
-    background-color: #F0724F;
-}
 .social{
     display: flex;
     justify-content: center;
