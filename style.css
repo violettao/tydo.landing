@@ -145,11 +145,6 @@ form p {
 }
 
 .level-01 h2{
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 34px;
-    line-height: 44px;
     color: #FAC93B;
     margin-top: 40px;
 }
@@ -183,11 +178,6 @@ form p {
 }
 
 .level-02 h2{
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 34px;
-    line-height: 44px;
     color: #EE704E;
     margin-bottom: 30px;
     margin-left: 95px;
@@ -268,6 +258,7 @@ form p {
     justify-content: space-around;
     align-items: flex-end;
     height: 950px;
+    padding-bottom: 50px;
 }
 
 
@@ -293,11 +284,6 @@ form p {
 }
 
 .level-03-text h2{
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 34px;
-    line-height: 44px;
     color: #F59E45;
     padding-bottom: 40px;
     max-width: 600px;
@@ -344,3 +330,84 @@ form p {
     margin-top: 40px;
     margin-bottom: 70px;
 }
+
+/* level-04 */
+
+.level-04{
+    background: #f6f6f6;
+    position: relative;
+    height: 900px;
+    z-index: -2;
+}
+
+.level-04-text{
+    padding-top: 120px;
+    padding-left: 130px;
+}
+
+.level-04 h2{
+    color: #FAC93B;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.level-04 img{
+    position: absolute;
+    width: 580px;
+    height: 400px;
+    z-index: 1;
+}
+
+.level-04 .ellipse-left-04{
+    width: 270px;
+    height: 310px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+}
+
+ .level-04 .container-04 img{
+    position: absolute;
+     right: 0;
+     width: 900px;
+     height: 900px;
+     z-index: -1;
+     top: 160px;
+ }
+
+ .level-04 .container-04 .ellipse-right-04{
+     position: absolute;
+     width: 980px;
+     height: 1150px;
+     z-index: 3;
+     right: 0;
+     top: 15px;
+ }
+
+.level-04 .container-04 .list-04 {
+    position: absolute;
+    z-index: 1;
+    right: 100px;
+    width: 580px;
+    height: 430px;
+    top: 300px;
+}
+
+.level-04 .container-04 .list-04{
+    max-width: 560px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 50px;
+    padding-top: 15px;
+}
+
+.level-04 .container-04 .list-04 li{
+    list-style: url("assets/img/list_style_04.png");
+    padding-bottom: 10px;
+}
+
+.level-04 .container-04 .list-04 li p{
+    font-size: 15px;
+}
+
+

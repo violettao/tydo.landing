@@ -22,15 +22,13 @@ html {
 
 body {
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /**
  * Render the `main` element consistently in IE.
  */
 
-main {
-  display: block;
-}
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -38,9 +36,23 @@ main {
  */
 
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
   font-weight: 900;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 44px;
+}
+
+h3{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #383838;
 }
 
 /* Grouping content
