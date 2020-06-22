@@ -415,12 +415,13 @@ form p {
 /* level-05 */
 
 .level-05 {
-position: relative;
+    height: 900px;
 }
 
 .level-05 .level-05-text{
     padding-top: 120px;
     padding-left: 130px;
+    padding-bottom: 20px;
 }
 
 .level-05 .level-05-text h2{
@@ -499,13 +500,102 @@ position: relative;
     margin-right: 50px;
 }
 
+/* level-05-06 */
+
+.level-05-06{
+    height: 1000px;
+    background: #f6f6f6;
+}
+
 /* level-06 */
+
+.level-06{
+    position: relative;
+    background: #E5E5E5;
+    height: 900px;
+}
+
+.level-06 .container-06{
+    position: absolute;
+    top: -450px;
+}
 
 .level-06 .level-06-text{
     padding-top: 120px;
-    padding-left: 130px;
+    width: 210px;
+    margin: auto;
+    padding-bottom: 50px;
+
 }
 
 .level-06 .level-06-text h2{
+    color: #EE704E;
+}
+
+.level-06 table{
+    width: 830px;
+    height: 570px;
+    justify-content: center;
+    border: 2px solid #ffffff;
+    border-collapse: collapse;
+    background: #ffffff;
+}
+
+.level-06 table td{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    align-items: center;
+    padding-left: 10px;
+    color: #383838;
+    border: 1px dashed #cdbdd0;
+}
+
+.level-06 table .bold{
+    font-weight: bold;
+}
+
+.level-06 table .bg-gray{
+    background: #EAEAEA;
+    width: 140px;
+    height: 116px;
+    text-align: start;
+}
+
+.level-06 table .orange{
+    color: #EE704E;
+}
+
+.level-06 table .yellow{
+    color: #FFA336;
+}
+
+.ellipse-06{
+    position: absolute;
+    right: 0;
+    top: 350px;
+}
+
+/* level-07 */
+
+.level-07{
+    position: relative;
+}
+
+.container-07{
+    position: absolute;
+    top: -500px;
+}
+
+.level-07 .level-07-text{
+    padding-top: 120px;
+    padding-left: 130px;
+    padding-bottom: 20px;
+}
+
+.level-07 .level-07-text h2{
     color: #EE704E;
 }
