@@ -518,6 +518,7 @@ form p {
 .level-06 .container-06{
     position: absolute;
     top: -450px;
+    right: 300px;
 }
 
 .level-06 .level-06-text{
@@ -598,4 +599,212 @@ form p {
 
 .level-07 .level-07-text h2{
     color: #EE704E;
+}
+
+.level-07 .question-1{
+    position: relative;
+    margin-left: 120px;
+    margin-top: 120px;
+}
+
+.level-07 .question-1 .question-text{
+    position: absolute;
+    top: 37px;
+    left: 60px;
+}
+
+.level-07 .question-1 .question-text h5{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #F59E45;
+}
+
+.level-07 .question-1 .question-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #383838;
+    width: 135px;
+    height: 135px;
+}
+
+.level-07 .question-1 .answer{
+    position: absolute;
+    top: 215px;
+    left: 47px;
+}
+
+.level-07 .question-1 .answer p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #383838;
+    width: 250px;
+    height: 65px;
+}
+
+.level-07 .question-2{
+    position: relative;
+    margin-left: 120px;
+    margin-top: 120px;
+}
+
+.level-07 .question-2 .question-text{
+    position: absolute;
+    top: 220px;
+    left: 100px;
+}
+
+.level-07 .question-2 .question-text h5{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #F59E45;
+}
+
+.level-07 .question-2 .question-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #383838;
+    width: 135px;
+    height: 135px;
+}
+
+.level-07 .question-2 .answer{
+    position: absolute;
+    top: 110px;
+    left: 140px;
+}
+
+.level-07 .question-2 .answer p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #383838;
+    width: 250px;
+    height: 65px;
+}
+
+.level-07 .question-3{
+    position: relative;
+    margin-left: 120px;
+    margin-top: 120px;
+}
+
+.level-07 .question-3 .question-text{
+    position: absolute;
+    top: 30px;
+    left: 160px;
+}
+
+.level-07 .question-3 .question-text h5{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #F59E45;
+}
+
+.level-07 .question-3 .question-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #383838;
+    width: 135px;
+    height: 135px;
+}
+
+.level-07 .question-3 .answer{
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+
+.level-07 .question-3 .answer p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #383838;
+    width: 250px;
+    height: 65px;
+}
+
+.level-07 .question-4{
+    position: relative;
+    margin-left: 120px;
+    margin-top: 120px;
+}
+
+.level-07 .question-4 .question-text{
+    position: absolute;
+    top: 70px;
+    left: 110px;
+}
+
+.level-07 .question-4 .question-text h5{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #F59E45;
+}
+
+.level-07 .question-4 .question-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #383838;
+    width: 135px;
+    height: 135px;
+}
+
+.level-07 .question-4 .answer{
+    position: absolute;
+    top: 330px;
+    left: 80px;
+}
+
+.level-07 .question-4 .answer p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #383838;
+    width: 250px;
+    height: 65px;
 }
