@@ -601,10 +601,15 @@ form p {
     color: #EE704E;
 }
 
-.level-07 .question-1{
-    position: relative;
+.questions{
+    width: 100%;
+    display: flex;
     margin-left: 120px;
     margin-top: 120px;
+}
+
+.level-07 .question-1{
+    position: relative;
 }
 
 .level-07 .question-1 .question-text{
@@ -655,8 +660,6 @@ form p {
 
 .level-07 .question-2{
     position: relative;
-    margin-left: 120px;
-    margin-top: 120px;
 }
 
 .level-07 .question-2 .question-text{
@@ -707,8 +710,6 @@ form p {
 
 .level-07 .question-3{
     position: relative;
-    margin-left: 120px;
-    margin-top: 120px;
 }
 
 .level-07 .question-3 .question-text{
@@ -759,8 +760,6 @@ form p {
 
 .level-07 .question-4{
     position: relative;
-    margin-left: 120px;
-    margin-top: 120px;
 }
 
 .level-07 .question-4 .question-text{
@@ -807,4 +806,86 @@ form p {
     color: #383838;
     width: 250px;
     height: 65px;
+}
+
+/* footer */
+
+footer{
+    position: relative;
+    margin-top: 400px;
+    margin-bottom: 40px;
+}
+
+.footer-text{
+    width: 525px;
+    height: 104px;
+    margin: auto;
+}
+
+.footer-text h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+    color: #EE704E;
+
+}
+
+.footer-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #393939;
+    width: 360px;
+    height: 34px;
+    margin-left: 95px;
+    margin-top: 30px;
+}
+
+footer button{
+    position: absolute;
+    left: 1050px;
+    top: 50px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    height: 20px;
+    margin: auto;
+
+}
+
+.contacts p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #393939;
+}
+
+.social-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.social-footer a {
+    font-size: 24px;
+    color: rgba(56, 56, 56, 0.6);
+    transition: all 0.3s;
+    margin-left: 50px;
+}
+
+.social-footer a:hover {
+    color: #5cacce;
 }
