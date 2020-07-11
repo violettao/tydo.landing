@@ -282,7 +282,7 @@ form p {
 }
 
 .social a:hover {
-    color: #5cacce;
+    color: #EE704E;
 }
 
 .level-03-text h2{
@@ -291,7 +291,7 @@ form p {
     max-width: 600px;
 }
 
-.level-03-text h3{
+.level-03-text #content h3{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -301,7 +301,7 @@ form p {
     width: 180px;
 }
 
-.level-03-text p{
+.level-03-text #content p{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -321,16 +321,30 @@ form p {
 
 }
 
-.images-level-03 .steps{
-    width: 550px;
-    height: 100px;
+.images-level-03 #tabs{
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: space-between;
+    width: 400px;
 }
 
-.images-level-03 .circles-03{
-    width: 220px;
-    height: 250px;
-    margin-top: 40px;
-    margin-bottom: 70px;
+.images-level-03 #tabs button{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    background: #A284A8;
+    width: 50px;
+    height: 50px;
+}
+
+.images-level-03 #tabs .active{
+    background: #ffffff;
+    color: #A284A8;
 }
 
 /* level-04 */
@@ -602,14 +616,15 @@ form p {
 }
 
 .questions{
-    width: 100%;
     display: flex;
-    margin-left: 120px;
-    margin-top: 120px;
+    justify-content: center;
 }
 
 .level-07 .question-1{
     position: relative;
+    background: url("../img/circle_07_1.svg") no-repeat;
+    width: 335px;
+    height: 335px;
 }
 
 .level-07 .question-1 .question-text{
@@ -660,6 +675,9 @@ form p {
 
 .level-07 .question-2{
     position: relative;
+    background: url("../img/circle_07_2.svg") no-repeat;
+    width: 555px;
+    height: 550px;
 }
 
 .level-07 .question-2 .question-text{
@@ -710,6 +728,9 @@ form p {
 
 .level-07 .question-3{
     position: relative;
+    background: url("../img/circle_07_3.svg") no-repeat;
+    width: 325px;
+    height: 325px;
 }
 
 .level-07 .question-3 .question-text{
@@ -760,6 +781,9 @@ form p {
 
 .level-07 .question-4{
     position: relative;
+    background: url("../img/circle_07_7.svg") no-repeat;
+    width: 575px;
+    height: 575px;
 }
 
 .level-07 .question-4 .question-text{
@@ -887,5 +911,5 @@ footer button{
 }
 
 .social-footer a:hover {
-    color: #5cacce;
+    color: #EE704E;
 }
